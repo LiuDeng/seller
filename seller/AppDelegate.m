@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "LoginVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // 初始化 im
+    // 注册 APNs
+    // 统计应用启动情况
+    // 监听网络状态
+    // Umeng 统计
+    
+    // 监听键盘
+    // 异常捕捉
+    
+    LoginVC *vc = [[LoginVC alloc] init];
+    
+    self.window.rootViewController = vc;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
