@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04CE90171B4D3F37003A32E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE90161B4D3F37003A32E3 /* Images.xcassets */; };
 		3E75D0C19E2FE966BE00466C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5630E6952DDCFF4DCDE587D5 /* libPods.a */; };
 		A0B33E611B4D1DC100AF5AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B33E601B4D1DC100AF5AB3 /* main.m */; };
 		A0B33E641B4D1DC100AF5AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B33E631B4D1DC100AF5AB3 /* AppDelegate.m */; };
 		A0B33E671B4D1DC100AF5AB3 /* seller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0B33E651B4D1DC100AF5AB3 /* seller.xcdatamodeld */; };
 		A0B33E6A1B4D1DC100AF5AB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B33E691B4D1DC100AF5AB3 /* ViewController.m */; };
 		A0B33E6D1B4D1DC100AF5AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B33E6B1B4D1DC100AF5AB3 /* Main.storyboard */; };
-		A0B33E6F1B4D1DC100AF5AB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B33E6E1B4D1DC100AF5AB3 /* Images.xcassets */; };
 		A0B33E721B4D1DC100AF5AB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0B33E701B4D1DC100AF5AB3 /* LaunchScreen.xib */; };
 		A0B33E7E1B4D1DC100AF5AB3 /* sellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B33E7D1B4D1DC100AF5AB3 /* sellerTests.m */; };
 /* End PBXBuildFile section */
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CE90161B4D3F37003A32E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		25EB175AC6BC49A78D8E0B17 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5630E6952DDCFF4DCDE587D5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B33E5B1B4D1DC100AF5AB3 /* seller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seller.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,7 +41,6 @@
 		A0B33E681B4D1DC100AF5AB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A0B33E691B4D1DC100AF5AB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A0B33E6C1B4D1DC100AF5AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A0B33E6E1B4D1DC100AF5AB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A0B33E711B4D1DC100AF5AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A0B33E771B4D1DC100AF5AB3 /* sellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B33E7C1B4D1DC100AF5AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,53 +67,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04CE900C1B4D3D8A003A32E3 /* New Group */ = {
+		04CE900C1B4D3D8A003A32E3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group";
+			name = Main;
 			sourceTree = "<group>";
 		};
-		04CE900D1B4D3D8C003A32E3 /* New Group1 */ = {
+		04CE900D1B4D3D8C003A32E3 /* IMChat */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group1";
+			name = IMChat;
 			sourceTree = "<group>";
 		};
-		04CE900E1B4D3D8D003A32E3 /* New Group2 */ = {
+		04CE900E1B4D3D8D003A32E3 /* Goods */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group2";
+			name = Goods;
 			sourceTree = "<group>";
 		};
-		04CE900F1B4D3D8E003A32E3 /* New Group3 */ = {
+		04CE900F1B4D3D8E003A32E3 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group3";
+			name = Entity;
 			sourceTree = "<group>";
 		};
-		04CE90101B4D3D8F003A32E3 /* New Group4 */ = {
+		04CE90101B4D3D8F003A32E3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group4";
+			name = Common;
 			sourceTree = "<group>";
 		};
-		04CE90111B4D3D90003A32E3 /* New Group5 */ = {
+		04CE90111B4D3D90003A32E3 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group5";
+			name = Auth;
 			sourceTree = "<group>";
 		};
-		04CE90121B4D3D91003A32E3 /* New Group6 */ = {
+		04CE90121B4D3D91003A32E3 /* APIs */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = "New Group6";
+			name = APIs;
+			sourceTree = "<group>";
+		};
+		04CE90181B4D3F77003A32E3 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		04CE90191B4D3F7A003A32E3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		04CE901A1B4D3F89003A32E3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		04CE901B1B4D3F8A003A32E3 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Order;
+			sourceTree = "<group>";
+		};
+		04CE901C1B4D3FA6003A32E3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		04CE901D1B4D3FA7003A32E3 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vendors;
 			sourceTree = "<group>";
 		};
 		A0B33E521B4D1DC100AF5AB3 = {
@@ -143,16 +185,22 @@
 				A0B33E631B4D1DC100AF5AB3 /* AppDelegate.m */,
 				A0B33E681B4D1DC100AF5AB3 /* ViewController.h */,
 				A0B33E691B4D1DC100AF5AB3 /* ViewController.m */,
-				04CE90121B4D3D91003A32E3 /* New Group6 */,
-				04CE90111B4D3D90003A32E3 /* New Group5 */,
-				04CE90101B4D3D8F003A32E3 /* New Group4 */,
-				04CE900F1B4D3D8E003A32E3 /* New Group3 */,
-				04CE900E1B4D3D8D003A32E3 /* New Group2 */,
-				04CE900D1B4D3D8C003A32E3 /* New Group1 */,
-				04CE900C1B4D3D8A003A32E3 /* New Group */,
+				04CE90191B4D3F7A003A32E3 /* Service */,
+				04CE90181B4D3F77003A32E3 /* Macro */,
+				04CE900C1B4D3D8A003A32E3 /* Main */,
+				04CE90121B4D3D91003A32E3 /* APIs */,
+				04CE90111B4D3D90003A32E3 /* Auth */,
+				04CE90101B4D3D8F003A32E3 /* Common */,
+				04CE900F1B4D3D8E003A32E3 /* Entity */,
+				04CE900E1B4D3D8D003A32E3 /* Goods */,
+				04CE900D1B4D3D8C003A32E3 /* IMChat */,
+				04CE901B1B4D3F8A003A32E3 /* Order */,
+				04CE901A1B4D3F89003A32E3 /* Setting */,
+				04CE901D1B4D3FA7003A32E3 /* Vendors */,
+				04CE901C1B4D3FA6003A32E3 /* Resource */,
 				A0B33E6B1B4D1DC100AF5AB3 /* Main.storyboard */,
-				A0B33E6E1B4D1DC100AF5AB3 /* Images.xcassets */,
 				A0B33E701B4D1DC100AF5AB3 /* LaunchScreen.xib */,
+				04CE90161B4D3F37003A32E3 /* Images.xcassets */,
 				A0B33E651B4D1DC100AF5AB3 /* seller.xcdatamodeld */,
 				A0B33E5E1B4D1DC100AF5AB3 /* Supporting Files */,
 			);
@@ -284,9 +332,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CE90171B4D3F37003A32E3 /* Images.xcassets in Resources */,
 				A0B33E6D1B4D1DC100AF5AB3 /* Main.storyboard in Resources */,
 				A0B33E721B4D1DC100AF5AB3 /* LaunchScreen.xib in Resources */,
-				A0B33E6F1B4D1DC100AF5AB3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
