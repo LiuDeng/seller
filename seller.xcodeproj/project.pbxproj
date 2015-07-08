@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		04BE08E51B4D4C5800CEC649 /* RegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE08E41B4D4C5800CEC649 /* RegisterVC.m */; };
+		04BE08F21B4D58AD00CEC649 /* LoginHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE08F11B4D58AD00CEC649 /* LoginHelper.m */; };
+		04BE08F51B4D59AC00CEC649 /* RestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE08F41B4D59AC00CEC649 /* RestApi.m */; };
+		04BE08F81B4D59C300CEC649 /* BaseRestApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE08F71B4D59C300CEC649 /* BaseRestApi.m */; };
+		04BE09081B4D5A3600CEC649 /* Login_Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE09071B4D5A3600CEC649 /* Login_Post.m */; };
+		04BE090B1B4D5A4000CEC649 /* Register_Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE090A1B4D5A4000CEC649 /* Register_Post.m */; };
+		04BE090E1B4D5A4A00CEC649 /* PasswordReset_Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE090D1B4D5A4A00CEC649 /* PasswordReset_Post.m */; };
+		04BE09171B4D66EC00CEC649 /* GCDUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE09161B4D66EC00CEC649 /* GCDUtil.m */; };
+		04BE091A1B4D66FB00CEC649 /* JsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE09191B4D66FB00CEC649 /* JsonUtil.m */; };
+		04BE091D1B4D682500CEC649 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE091C1B4D682500CEC649 /* NSString+Utils.m */; };
+		04BE09201B4D685500CEC649 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE091F1B4D685500CEC649 /* DateUtil.m */; };
+		04BE09231B4D688400CEC649 /* CompareUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE09221B4D688400CEC649 /* CompareUtil.m */; };
+		04BE09261B4D6AC700CEC649 /* URLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BE09251B4D6AC700CEC649 /* URLHelper.m */; };
 		04CE90171B4D3F37003A32E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CE90161B4D3F37003A32E3 /* Images.xcassets */; };
 		04CE90201B4D40BB003A32E3 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE901F1B4D40BB003A32E3 /* LoginVC.m */; };
 		04CE90231B4D4373003A32E3 /* TabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CE90221B4D4373003A32E3 /* TabbarViewController.m */; };
@@ -55,6 +67,31 @@
 /* Begin PBXFileReference section */
 		04BE08E31B4D4C5800CEC649 /* RegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterVC.h; sourceTree = "<group>"; };
 		04BE08E41B4D4C5800CEC649 /* RegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterVC.m; sourceTree = "<group>"; };
+		04BE08F01B4D58AD00CEC649 /* LoginHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginHelper.h; sourceTree = "<group>"; };
+		04BE08F11B4D58AD00CEC649 /* LoginHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginHelper.m; sourceTree = "<group>"; };
+		04BE08F31B4D59AC00CEC649 /* RestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestApi.h; sourceTree = "<group>"; };
+		04BE08F41B4D59AC00CEC649 /* RestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestApi.m; sourceTree = "<group>"; };
+		04BE08F61B4D59C300CEC649 /* BaseRestApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRestApi.h; sourceTree = "<group>"; };
+		04BE08F71B4D59C300CEC649 /* BaseRestApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRestApi.m; sourceTree = "<group>"; };
+		04BE09061B4D5A3600CEC649 /* Login_Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login_Post.h; sourceTree = "<group>"; };
+		04BE09071B4D5A3600CEC649 /* Login_Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login_Post.m; sourceTree = "<group>"; };
+		04BE09091B4D5A4000CEC649 /* Register_Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register_Post.h; sourceTree = "<group>"; };
+		04BE090A1B4D5A4000CEC649 /* Register_Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register_Post.m; sourceTree = "<group>"; };
+		04BE090C1B4D5A4A00CEC649 /* PasswordReset_Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordReset_Post.h; sourceTree = "<group>"; };
+		04BE090D1B4D5A4A00CEC649 /* PasswordReset_Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordReset_Post.m; sourceTree = "<group>"; };
+		04BE090F1B4D5A8700CEC649 /* ApiHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiHeader.h; sourceTree = "<group>"; };
+		04BE09151B4D66EC00CEC649 /* GCDUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDUtil.h; sourceTree = "<group>"; };
+		04BE09161B4D66EC00CEC649 /* GCDUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDUtil.m; sourceTree = "<group>"; };
+		04BE09181B4D66FB00CEC649 /* JsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonUtil.h; sourceTree = "<group>"; };
+		04BE09191B4D66FB00CEC649 /* JsonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonUtil.m; sourceTree = "<group>"; };
+		04BE091B1B4D682500CEC649 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		04BE091C1B4D682500CEC649 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		04BE091E1B4D685500CEC649 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		04BE091F1B4D685500CEC649 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		04BE09211B4D688400CEC649 /* CompareUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompareUtil.h; sourceTree = "<group>"; };
+		04BE09221B4D688400CEC649 /* CompareUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompareUtil.m; sourceTree = "<group>"; };
+		04BE09241B4D6AC700CEC649 /* URLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHelper.h; sourceTree = "<group>"; };
+		04BE09251B4D6AC700CEC649 /* URLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLHelper.m; sourceTree = "<group>"; };
 		04CE90161B4D3F37003A32E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04CE901E1B4D40BB003A32E3 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
 		04CE901F1B4D40BB003A32E3 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
@@ -145,6 +182,194 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04BE08E71B4D587B00CEC649 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		04BE08E81B4D587F00CEC649 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group1";
+			sourceTree = "<group>";
+		};
+		04BE08E91B4D587F00CEC649 /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group2";
+			sourceTree = "<group>";
+		};
+		04BE08EA1B4D588000CEC649 /* New Group3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group3";
+			sourceTree = "<group>";
+		};
+		04BE08EB1B4D588100CEC649 /* New Group4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group4";
+			sourceTree = "<group>";
+		};
+		04BE08EC1B4D588200CEC649 /* Task */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Task;
+			sourceTree = "<group>";
+		};
+		04BE08ED1B4D588300CEC649 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Preference;
+			sourceTree = "<group>";
+		};
+		04BE08EE1B4D588300CEC649 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				04BE08F01B4D58AD00CEC649 /* LoginHelper.h */,
+				04BE08F11B4D58AD00CEC649 /* LoginHelper.m */,
+				04BE09241B4D6AC700CEC649 /* URLHelper.h */,
+				04BE09251B4D6AC700CEC649 /* URLHelper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		04BE08EF1B4D588400CEC649 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+		04BE08F91B4D59C800CEC649 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = setting;
+			sourceTree = "<group>";
+		};
+		04BE08FA1B4D59CB00CEC649 /* config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		04BE08FB1B4D59CC00CEC649 /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = wallet;
+			sourceTree = "<group>";
+		};
+		04BE08FC1B4D59CD00CEC649 /* users */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = users;
+			sourceTree = "<group>";
+		};
+		04BE08FD1B4D59CE00CEC649 /* orders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = orders;
+			sourceTree = "<group>";
+		};
+		04BE08FE1B4D59CE00CEC649 /* checkversion */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = checkversion;
+			sourceTree = "<group>";
+		};
+		04BE08FF1B4D59CF00CEC649 /* search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		04BE09001B4D59D000CEC649 /* sms */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = sms;
+			sourceTree = "<group>";
+		};
+		04BE09011B4D59D100CEC649 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				04BE09061B4D5A3600CEC649 /* Login_Post.h */,
+				04BE09071B4D5A3600CEC649 /* Login_Post.m */,
+				04BE09091B4D5A4000CEC649 /* Register_Post.h */,
+				04BE090A1B4D5A4000CEC649 /* Register_Post.m */,
+				04BE090C1B4D5A4A00CEC649 /* PasswordReset_Post.h */,
+				04BE090D1B4D5A4A00CEC649 /* PasswordReset_Post.m */,
+			);
+			name = auth;
+			sourceTree = "<group>";
+		};
+		04BE09021B4D59D200CEC649 /* host */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = host;
+			sourceTree = "<group>";
+		};
+		04BE09101B4D666200CEC649 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		04BE09111B4D666500CEC649 /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group1";
+			sourceTree = "<group>";
+		};
+		04BE09121B4D666600CEC649 /* Catogires */ = {
+			isa = PBXGroup;
+			children = (
+				04BE091B1B4D682500CEC649 /* NSString+Utils.h */,
+				04BE091C1B4D682500CEC649 /* NSString+Utils.m */,
+			);
+			name = Catogires;
+			sourceTree = "<group>";
+		};
+		04BE09131B4D666700CEC649 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				04BE09211B4D688400CEC649 /* CompareUtil.h */,
+				04BE09221B4D688400CEC649 /* CompareUtil.m */,
+				04BE09151B4D66EC00CEC649 /* GCDUtil.h */,
+				04BE09161B4D66EC00CEC649 /* GCDUtil.m */,
+				04BE09181B4D66FB00CEC649 /* JsonUtil.h */,
+				04BE09191B4D66FB00CEC649 /* JsonUtil.m */,
+				04BE091E1B4D685500CEC649 /* DateUtil.h */,
+				04BE091F1B4D685500CEC649 /* DateUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		04BE09141B4D666800CEC649 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 		04CE900C1B4D3D8A003A32E3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +419,11 @@
 				04CE90251B4D439F003A32E3 /* Cells */,
 				04CE90261B4D43BA003A32E3 /* Controllers */,
 				04CE90271B4D43C3003A32E3 /* Views */,
+				04BE09141B4D666800CEC649 /* Helper */,
+				04BE09131B4D666700CEC649 /* Utils */,
+				04BE09121B4D666600CEC649 /* Catogires */,
+				04BE09111B4D666500CEC649 /* New Group1 */,
+				04BE09101B4D666200CEC649 /* New Group */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -212,6 +442,21 @@
 		04CE90121B4D3D91003A32E3 /* APIs */ = {
 			isa = PBXGroup;
 			children = (
+				04BE090F1B4D5A8700CEC649 /* ApiHeader.h */,
+				04BE08F31B4D59AC00CEC649 /* RestApi.h */,
+				04BE08F41B4D59AC00CEC649 /* RestApi.m */,
+				04BE08F61B4D59C300CEC649 /* BaseRestApi.h */,
+				04BE08F71B4D59C300CEC649 /* BaseRestApi.m */,
+				04BE09021B4D59D200CEC649 /* host */,
+				04BE09011B4D59D100CEC649 /* auth */,
+				04BE09001B4D59D000CEC649 /* sms */,
+				04BE08FF1B4D59CF00CEC649 /* search */,
+				04BE08FE1B4D59CE00CEC649 /* checkversion */,
+				04BE08FD1B4D59CE00CEC649 /* orders */,
+				04BE08FC1B4D59CD00CEC649 /* users */,
+				04BE08FB1B4D59CC00CEC649 /* wallet */,
+				04BE08FA1B4D59CB00CEC649 /* config */,
+				04BE08F91B4D59C800CEC649 /* setting */,
 			);
 			name = APIs;
 			sourceTree = "<group>";
@@ -234,6 +479,15 @@
 		04CE90191B4D3F7A003A32E3 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				04BE08EF1B4D588400CEC649 /* Plugins */,
+				04BE08EE1B4D588300CEC649 /* Helper */,
+				04BE08ED1B4D588300CEC649 /* Preference */,
+				04BE08EC1B4D588200CEC649 /* Task */,
+				04BE08EB1B4D588100CEC649 /* New Group4 */,
+				04BE08EA1B4D588000CEC649 /* New Group3 */,
+				04BE08E91B4D587F00CEC649 /* New Group2 */,
+				04BE08E81B4D587F00CEC649 /* New Group1 */,
+				04BE08E71B4D587B00CEC649 /* New Group */,
 			);
 			name = Service;
 			sourceTree = "<group>";
@@ -549,25 +803,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04BE090E1B4D5A4A00CEC649 /* PasswordReset_Post.m in Sources */,
 				04CE90461B4D4579003A32E3 /* BaseLoadTC.m in Sources */,
 				04CE902A1B4D4402003A32E3 /* BaseVC.m in Sources */,
 				04CE905B1B4D467B003A32E3 /* ChatListVC.m in Sources */,
+				04BE08F21B4D58AD00CEC649 /* LoginHelper.m in Sources */,
+				04BE09201B4D685500CEC649 /* DateUtil.m in Sources */,
+				04BE09231B4D688400CEC649 /* CompareUtil.m in Sources */,
 				04CE903D1B4D44DD003A32E3 /* BaseTabbar.m in Sources */,
+				04BE09081B4D5A3600CEC649 /* Login_Post.m in Sources */,
 				04CE90361B4D448E003A32E3 /* BaseTabC.m in Sources */,
 				04CE90401B4D4521003A32E3 /* BaseTC.m in Sources */,
 				A0B33E641B4D1DC100AF5AB3 /* AppDelegate.m in Sources */,
+				04BE091D1B4D682500CEC649 /* NSString+Utils.m in Sources */,
+				04BE090B1B4D5A4000CEC649 /* Register_Post.m in Sources */,
+				04BE09171B4D66EC00CEC649 /* GCDUtil.m in Sources */,
 				04CE90331B4D4482003A32E3 /* BaseNavC.m in Sources */,
 				04CE903A1B4D44D5003A32E3 /* BaseNavBar.m in Sources */,
 				04BE08E51B4D4C5800CEC649 /* RegisterVC.m in Sources */,
 				04CE904C1B4D45AD003A32E3 /* BaseFormGroupTC.m in Sources */,
 				04CE90301B4D4439003A32E3 /* BaseView.m in Sources */,
+				04BE091A1B4D66FB00CEC649 /* JsonUtil.m in Sources */,
 				A0B33E611B4D1DC100AF5AB3 /* main.m in Sources */,
+				04BE08F51B4D59AC00CEC649 /* RestApi.m in Sources */,
 				04CE90521B4D45D2003A32E3 /* BaseSwipeVC.m in Sources */,
 				04CE905E1B4D46B8003A32E3 /* SuppliesAndTaskParentVC.m in Sources */,
+				04BE09261B4D6AC700CEC649 /* URLHelper.m in Sources */,
 				04CE904F1B4D45C5003A32E3 /* BaseSwitch2TableVC.m in Sources */,
 				04CE90231B4D4373003A32E3 /* TabbarViewController.m in Sources */,
 				04CE90551B4D4654003A32E3 /* AboutMeViewController.m in Sources */,
 				04CE90671B4D46F6003A32E3 /* TasksVC.m in Sources */,
+				04BE08F81B4D59C300CEC649 /* BaseRestApi.m in Sources */,
 				04CE90201B4D40BB003A32E3 /* LoginVC.m in Sources */,
 				04CE906F1B4D4B39003A32E3 /* AppStaticValue.m in Sources */,
 				04CE902D1B4D4426003A32E3 /* BaseTCell.m in Sources */,

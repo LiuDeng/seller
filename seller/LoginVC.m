@@ -39,8 +39,18 @@
     // 1 - Logo
     
     // 2 - User name
+    _dUserTel = [[UITextField alloc] initWithFrame:CGRectMake(kCellControlPointX, kCellControlPointY, 300, 40)];
+    _dUserTel.placeholder = @"用户名";
+    _dUserTel.text = @"18698894171";
+    _dUserTel.borderStyle = UITextBorderStyleRoundedRect;
+    [self.view addSubview:_dUserTel];
     
     // 3 - Password
+    _dPassword = [[UITextField alloc] initWithFrame:CGRectMake(kCellControlPointX, 100, 300, 40)];
+    _dPassword.borderStyle = UITextBorderStyleRoundedRect;
+    _dPassword.placeholder = @"密码";
+    _dPassword.text = @"660419";
+    [self.view addSubview:_dPassword];
     
     // 4 - Login
     UIButton *loginBtn = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -56,6 +66,9 @@
 }
 
 - (void)loginEvent:(UIButton *)sender {
+    
+    
+    
     TabbarViewController *tabVC = [[TabbarViewController alloc] init];
     [self presentViewController:tabVC animated:YES completion:nil];
 }
